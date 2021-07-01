@@ -36,6 +36,10 @@ $('#order').click(function() {
             $(".pay").show();
         });
 
-
+        $("#no").click(function() {
+            $(".alert").show();
+            $(".pay").hide();
+            $("#pizza-total").html("your total amount is sh" + total + "  thanks for shopping with us");
+        });
 
 })
