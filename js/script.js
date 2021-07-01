@@ -21,6 +21,20 @@ $('#order').click(function() {
         pizzaselected.push($(this).val());
         $("#add-pizza").append(newRow);
     });
+    $("table").show();
+        $(".sec-two").hide();
+
+        $("#size").html($(".size option:selected").text() + " - " + sizeOfPizza);
+        $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
+        $("#crust").html($(".crust option:selected").text() + " - " + crustOfPizza);
+        $("#total").html(total);
+
+        $("#check-out").click(function() {
+            $(".table").hide();
+            $("#order").hide();
+            $("#check-out").hide();
+            $(".pay").show();
+        });
 
 
 
