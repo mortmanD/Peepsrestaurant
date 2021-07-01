@@ -41,6 +41,12 @@ $('#order').click(function() {
             $(".pay").hide();
             $("#pizza-total").html("your total amount is sh" + total + "  thanks for shopping with us");
         });
-       
+        $("#yes").click(function() {
+            $(".alert-pizza").show();
+            $(".delivery-form").hide();
+            $("#thanks").html("Thanks you for shopping with us your total amount is sh" + total + " we will deliver right away");
+        });
+
+        
 
     });
