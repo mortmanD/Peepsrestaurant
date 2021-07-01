@@ -1,0 +1,30 @@
+#menu-bar {
+    background-color:#563d7c !important;
+    align-items: stretch;
+    position: fixed;
+}
+.navbrand span{
+    color: red;
+    text-shadow: lawngreen;
+    font-weight: 900;
+    font-family: cursive;    
+}
+.navbrand{
+   font-weight: 900;
+   font-size: 1.6em;
+   text-shadow: cornsilk;
+   background-color:transparent;
+   float: left;
+   padding-right: 35px;
+   }
+#nav ul li a{
+    color: white;
+    align-items: right;    
+    padding:15px;
+    height: auto;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 0px;
+    margin: 0px;
+}
