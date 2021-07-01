@@ -46,7 +46,12 @@ $('#order').click(function() {
             $(".delivery-form").hide();
             $("#thanks").html("Thanks you for shopping with us your total amount is sh" + total + " we will deliver right away");
         });
-
+        $(".btn.complete").click(function() {
+            var loc = $(".add-info .loc input").val();
+            $(".add-info h4").show();
+            $(".add-info .loc").hide();
+            $(".add-info h4 span").html(loc);
+        });
         
 
     });
