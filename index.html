@@ -34,6 +34,103 @@
             </div>
         </nav>
     </div>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <column class="order" id="order">
+                    <h1 class="pizza">Order Now</h1>
+                        <br>
+                    <select class="form-control size">
+                        <h3>Pizza size</h3><br>
+                            <option label="select" value="0">Size Select </option>
+                            <option label="small" value="300">Small</option>
+                            <option label="Medium" value="600">Medium</option>
+                            <option label="large" value="900">Large</option>
+                            
+                </select>           
+               <h3>Toppings</h3>
+                <br>
+                <select class="form-control toppings">
+                    <option label="select" value="0">select</option>
+                    <option label="Black Olives" value="150">Black Olives</option>
+                    <option label="Sausage" value="100">Sausage</option>
+                    <option label="Green peppers" value="150">Green peppers</option>
+                    <option label="Bacon" value="350">Bacon</option>
+                    <option label="Cheese" value="200">Cheese</option>
+                    <option label="Pepperoni" value="250">Pepperoni</option>
+                </select>
+                      <h3 class="three">Crust</h3>
+                <br>                          
+            <select class="form-control crust">
+                <option label="select" value="0">select</option>
+                    <option label="Crispy" value="200">Stuffed</option>
+                    <option label="Flatbread" value="150">Flatberad</option>
+                    <option label="Sicilian style" value="350">Sicilian style</option>
+                    <option label="Chicago Deep Dish" value="400">Chicago Deep Dish</option>
+                    <option label="Gluten-free" value="300">Gluten-free</option>
+                    <option label="Stuffed" value="500">Stuffed</option>
+                </select>     
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Order.No</th>
+                <th scope="col">Pizza Size</th>
+                <th scope="col">Toppings</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody id="pizza">
+            <tr>
+                <th scope="row">1</th>
+                <td id="size"></td>
+                <td id="toppings"></td>
+                <th id="crust">
+                    </td>
+                    <td id="total"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="form group">
+        <div class="how">
+            <label for="number">Pizza Quantity</label>
+            <input required id="pizzaNumber" type="number" min="1x" placeholder="Enter the number of pizzas" class="form-control" id="number" />
+        </div>
+        <div class="make"><button class="btn btn-primary get" id="order" type="submit">ORDER</button>
+
+        </div>
+        <div id="check-out"><button class="btn btn-primary check" type="check">CHECK</button></div>
+        <div class="pay">
+            <h5 class="ph">Would you like delivery for an additional 150 ?</h5>
+            <button class="btn btn-dark" id="yes" type="submit">Yes</button>
+            <button class="btn btn-dark" id="no" type="submit">No</button>
+
+
+        </div>
+        <div class="delivery-form">
+            <h4 class="ph">Your order has been received successfully ! :<br> <span></span></h4>
+            <div class="loc text-center">
+                <input type="text" size="30" placeholder="enter your location" required />
+                <button class="btn btn-dark complete" type="submit">Complete</button>
+
+            </div>
+        </div>
+        <div class="alert">
+
+            <p id="pizza-total"></p>
+        </div>
+        <div class="alert-pizza">
+            <p id="thanks"></p>
+        </div>
+        <br>
+
+    </section>
+
+
+
+
     <section id="services">
     <h1>Charter</h1>
     <div class="max-width">

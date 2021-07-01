@@ -29,6 +29,76 @@
     padding: 0 0px;
     margin: 0px;
 }
+.home{
+    background-image:url("https://image.shutterstock.com/image-vector/empty-pizzeria-room-interior-furnace-260nw-1595678419.jpg") ;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    background-size: cover;    
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    display: flex;     
+    height: auto;
+    color:black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 45px;
+
+}
+.home .max-width{
+    width: 100%;
+    
+  }
+  .home column{
+      display: flex;
+      width: 50%;
+  }
+  .home .max-width .row{
+    margin-right: 0;
+  }
+  .home .home-content .text-1{
+    font-size: 35px;
+    text-decoration: yellow;
+    font-style: oblique;
+    padding-top: 30px;
+}
+.home .intro{
+    width: 35px;
+}
+
+    
+
+.home .order label{
+    font-style: oblique;
+  
+}
+.home .order h1{
+    text-align: center;
+}
+.home .order{
+    width:50%;
+    display: block;
+    text-align: left;
+    justify-content: right;
+    float: right;
+    color:white;
+    height: 100%;
+    line-height: 35px;
+    font-size: 18px;
+    padding-top: 50px; 
+    margin-bottom: 0px;
+    padding-left: 45px;
+    background-image: url("https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29vZCUyMHRleHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");  
+        
+}
+    .home .form{                  
+        width: 100%;
+        place-content:center;              
+        position: relative;        
+        justify-content: center;
+        height: auto;
+                             
+        
+      }
 #services .max-width h1{
     color: red;
     
