@@ -29,3 +29,47 @@
     padding: 0 0px;
     margin: 0px;
 }
+#services .max-width h1{
+    color: red;
+    
+
+}   
+#services{
+    text-align: center;
+    justify-content: center;
+    
+}
+#services .about-content .left{
+  width: 25%;
+  float: left;
+}
+#services .about-content .left img{
+  height: 410px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+#services .about-content .right{
+  width: 75%;
+  float: right;
+}
+#services .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: left;
+}
+ .about-content .right p{
+  text-align: left;
+  
+  
+}
+.about-content table{
+width: 100%;
+border-collapse: collapse;
+padding: 20px;
+}
+.about-content th, td {
+border: 1px dotted black;
+
+}
