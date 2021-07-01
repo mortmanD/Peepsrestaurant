@@ -159,3 +159,79 @@ border: 1px dotted black;
      text-decoration: underline;
 }
     
+.piz h3 {
+    font-size: 2rem;
+    color: rgb(134, 251, 197);
+    font-family: 'Berkshire swash'cursive;
+}
+
+.piz p {
+    color: antiquewhite;
+}
+
+.three {
+    font-size: 2rem;
+    color: rgb(134, 251, 197);
+    font-family: 'Berkshire swash'cursive;
+}
+
+.thre {
+    color: antiquewhite;
+}
+
+.table {
+    color: darkorange;
+}
+
+.pay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+
+.how {
+    color: darkorange;
+    font-size: 30px;
+}
+
+.ph {
+    color: turquoise;
+}
+
+.alert {
+    display: none;
+}
+
+#pizza-total {
+    color: white;
+}
+
+#thanks {
+    color: white;
+}
+
+.delivery-form {
+    display: none;
+}
+
+.alert-pizza {
+    display: none;
+}
+
+.make {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#check-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
