@@ -31,6 +31,7 @@ $('#order').click(function() {
         $("#total").html(total);
 
         $("#check-out").click(function() {
+            
             $(".table").hide();
             $("#order").hide();
             $("#check-out").hide();
@@ -56,3 +57,42 @@ $('#order').click(function() {
         
 
     });
+
+
+    $(document).ready(function() {
+        $('.more p').hide();
+    
+        $(".more img.one").click(function() {
+            $(".more p.one").toggle(1200);
+            $(".more img.one").toggle(1000);
+        });
+    
+        $(".more p.one").click(function() {
+            $(".more img.one").toggle(1200);
+            $(".more p.one").toggle(1000);
+        });
+    
+    
+        $(".more img.two").click(function() {
+            $(".more p.two").toggle(1200);
+            $(".more img.two").toggle(1000);
+        });
+    
+        $(".moreo p.two").click(function() {
+            $(".more img.two").toggle(1200);
+            $(".more p.two").toggle(1000);
+        });
+    
+    
+        $(".more img.three").click(function() {
+            $(".more p.thre").toggle(1200);
+            $(".more img.three").toggle(1000);
+        });
+    
+        $(".more p.three").click(function() {
+            $(".more img.three").toggle(1200);
+            $(".more p.thre").toggle(1000);
+        });
+    
+    })
+    

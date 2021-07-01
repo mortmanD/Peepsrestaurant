@@ -42,7 +42,7 @@
                         <br>
                     <select class="form-control size">
                         <h3>Pizza size</h3><br>
-                            <option label="select" value="0">Size Select </option>
+                            <option label="select" >Select </option>
                             <option label="small" value="300">Small</option>
                             <option label="Medium" value="600">Medium</option>
                             <option label="large" value="900">Large</option>
@@ -51,7 +51,7 @@
                <h3>Toppings</h3>
                 <br>
                 <select class="form-control toppings">
-                    <option label="select" value="0">select</option>
+                    <option label="select" >select</option>
                     <option label="Black Olives" value="150">Black Olives</option>
                     <option label="Sausage" value="100">Sausage</option>
                     <option label="Green peppers" value="150">Green peppers</option>
@@ -62,7 +62,7 @@
                       <h3 class="three">Crust</h3>
                 <br>                          
             <select class="form-control crust">
-                <option label="select" value="0">select</option>
+                <option label="select">select</option>
                     <option label="Crispy" value="200">Stuffed</option>
                     <option label="Flatbread" value="150">Flatberad</option>
                     <option label="Sicilian style" value="350">Sicilian style</option>
@@ -71,6 +71,8 @@
                     <option label="Stuffed" value="500">Stuffed</option>
                 </select>     
     <table class="table">
+
+
         <thead>
             <tr>
                 <th scope="col">Order.No</th>
@@ -98,10 +100,12 @@
             <label for="number">Pizza Quantity</label>
             <input required id="pizzaNumber" type="number" min="1" placeholder="Enter the number of pizzas" class="form-control" id="number" />
         </div>
-        <div class="make"><button class="btn btn-primary get" id="order" type="submit">ORDER</button>
+        <br>
+        <div class="make"><button class="btn btn-primary get" id="order" type="submit">BILL</button>
 
         </div>
-        <!-- <div id="check-out"><button class="btn btn-primary check" type="check">CHECKOUT</button></div> -->
+        <br>
+        <div id="check-out"><button class="btn btn-primary check" type="check">CHECKOUT</button></div>
         <div class="pay">
             <h5 class="ph">Would you like delivery for an additional 150 ?</h5>
             <button class="btn btn-dark" id="yes" type="submit">Yes</button>

@@ -235,3 +235,45 @@ border: 1px dotted black;
     align-items: center;
     position: relative;
 }
+
+.text {
+    border-radius: 20px;
+    width: 300pxpx;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+text input {
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    align-items: center;
+    outline: none;
+}
+
+.text button {
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: chocolate;
+    font-family: calibri;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #CDCACA;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order a {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: calibri;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
